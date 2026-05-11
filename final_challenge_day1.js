@@ -16,3 +16,14 @@ skills.forEach(element => {
     
 }   );
 
+// Es el mismo bloque de código de arriba de Recorremos la lista con un ciclo forEach
+// Pero aqui utilizamos el Operador Lógico OR (||) para evaluar
+// Y asi tener un código más limpio 
+skills.forEach(element => {
+    if (element==="JavaScript" || element === "Python"){
+        console.log(`Skill: ${element} Technical Level: High`);
+    }
+    else {console.log(`Skill: ${element}`);}
+    
+}   );
+
